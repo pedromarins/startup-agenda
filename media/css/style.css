@@ -1,0 +1,226 @@
+/* paleta do mais escuro para o mais claro */
+/* #CFF09E */
+/* #A8DBA8 */
+/* #A8DBA8 */
+/* #3B8686 */
+/* #0B486B */
+
+/* reset */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal }
+p { line-height:140% }
+strong { font-weight: bold }
+em { font-style: italic }
+a { text-decoration:none }
+a img { border:none }
+
+html, body {
+	overflow: auto;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+	background: #E7EBEE;
+}
+
+#tudo {
+    width: 100%;
+	height:100%;
+}
+
+/******************** header ********************/
+
+#header {
+	background: #0B486B;
+}
+
+#header-content {
+	height: 70px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+	width: 900px;
+}
+
+h1 {
+	float: left;
+}
+
+h1 a {
+	background: url("../images/startupagenda-logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+}
+
+h2 {
+	float: left;
+}
+
+#menu-do-header {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#menu-do-header li {
+    display: inline;
+	margin: 0 0 0 10px;
+}
+
+#social {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#social li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+/******************** conteudo ********************/
+
+#conteudo {
+	width: 100%;
+	overflow: hidden;
+}
+
+#center-content {
+	margin: 30px auto 0;
+    display: block;
+    position: relative;
+    width: 900px;
+}
+
+#lista-de-eventos {
+	width: 620px;
+	float: left;
+}
+
+.evento {
+	border: 1px solid #0B486B;
+	height: 90px;
+	width: 580px;
+	margin: 0 0 30px;
+	display: inline-block;
+	padding: 20px;
+}
+
+.data-do-evento {
+	border: 1px solid #0B486B;
+	width: 100px;
+	height: 90px;
+	display: block;
+	float: left;
+	background: #0B486B;
+}
+
+.logo-do-evento {
+	float: right;
+	border: 1px solid #0B486B;
+	width: 100px;
+	height: 90px;
+	display: block;
+	background: #0B486B;
+}
+
+.titulo-do-evento {
+	float: left;
+	margin: 0 0 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	width: 340px;
+	color: #0B486B;
+}
+
+.local-do-evento {
+	float: left;
+	margin: 5px 0 0 30px;
+	font-size: 17px;
+	width: 340px;
+	color: #3B8686;
+}
+
+#lateral {
+	width: 250px;
+	float: right;
+	color: #000;
+}
+
+#cadastrar {
+	border: 1px solid #0B486B;
+	margin: 0 0 30px;
+	background: #0B486B;
+	color: #eee;
+	padding: 20px;
+	text-align: center;
+	font-size: 19px;
+	border-radius: 15px;
+	-moz-box-shadow: 1px 1px 2px 1px #3B8686;
+	-webkit-box-shadow: 1px 1px 2px 1px #3B8686;
+	box-shadow: 1px 1px 2px 1px #3B8686;
+}
+
+#filtro-mes {
+	border: 1px solid #000;
+	margin: 0 0 30px;
+}
+
+#filtro-estado {
+	border: 1px solid #000;
+	margin: 0 0 30px;
+}
+
+#newsletter {
+	border: 1px solid #000;
+	margin: 0 0 30px;
+}
+
+#facebook-curtir {
+	border: 1px solid #000;
+	margin: 0 0 30px;
+}
+
+#twitter-follow {
+	border: 1px solid #000;
+	margin: 0 0 30px;
+}
+
+#google-plus {
+	border: 1px solid #000;
+	margin: 0 0 30px;
+}
+
+/******************** footer ********************/
+
+#footer {
+	background: #3B8686;
+}
+
+#footer-content {
+	height: 70px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+	width: 900px;
+}
+
+#footer a {
+	
+}
+
+#menu-do-footer {
+	
+}
+
+#menu-do-footer li {
+	
+}
+
+#copyright {
+	
+}
